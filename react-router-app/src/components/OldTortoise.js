@@ -1,5 +1,5 @@
 import tortoise from '../images/tortoise.jpg'
-const About = () => (
+const OldTortoise = () => (
     <div>
       <h1>Immortality in animals</h1>
       <img src={tortoise} alt="Jonathan, a 191 year old tortoise known to be the oldest living land animal" />
@@ -8,5 +8,5 @@ const About = () => (
     </div>
   );
   
-  export default About;
+  export default OldTortoise;
   

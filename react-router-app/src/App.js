@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import About from './components/About';
-import Curiosity from './components/Curiosity';
+import Immortality from './components/Immortality';
+import OldTortoise from './components/OldTortoise';
 import NotFound from './components/NotFound';
 import './App.css';
 
@@ -13,8 +13,8 @@ function App() {
       <div className="content">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/curiosity" element={<Curiosity />} />
+          <Route path="/Immortality" element={<Immortality />} />
+          <Route path="/OldTortoise" element={<OldTortoise />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
